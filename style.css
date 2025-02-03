@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color: #0f1111;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-content: center; */
+    align-items: center;
+}
+.nav-logo{
+    height: 50px;
+    width: 170px;
+    
+}
+.logo{
+   background-image: url(./images/amazon-logo2.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.nav-address{
+    
+    align-items: center;
+}
+.nav-address p{
+    font-size: 0.8rem;
+    color: #cccccc;
+    padding-left: 1rem;
+}
+.nav-address .address-logo span{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.border{
+    cursor: pointer;
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid #ffffff;
+}
+.search{
+    width: 520px;
+    /* height: 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent;
+}
+.search:hover{
+    border: 2px solid #F3A847;
+}
+.search-select{
+    background-color: #E6E6E6;
+    color: #0f1111;
+    width: 45px;
+    height: 50px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.search-input{
+    height: 47px;
+    width: 100%;
+    color: #0f1111;
+    font-size: 1rem;
+}
+.search-bar {
+    background-color: #F3A847;
+    color:#0f1111;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 45px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.search-bar i{
+    font-size: 1.2rem;
+    color: #0f1111;
+}
+.nav-signin p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    
+}
+.nav-signin .signin-accounts span{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.nav-cart span{
+    font-size: 1.3rem;
+}
+.nav-cart .cart i{
+    font-size: 2rem;
+}
+.panel{
+    height: 40px;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.panel .panel-ops{
+        width: 70%;
+}
+.panel .panel-all{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.panel .panel-all i{
+    font-size: 1.2rem;
+    padding-right: 0.2rem;
+}
+.panel .panel-ops span{
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-right: 8px;
+}
+.panel .panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.hero-section{
+    background-image: url(./images/hero_section.jpg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    width: 80%;
+    height: 50px;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.hero-msg span{
+    color: #007185;
+}
+.box-sec{
+    background-color: #C8E2C7;
+   display: flex;
+   justify-content: space-evenly;
+   padding: 20px;
+   flex-wrap: wrap;
+}
+.box{
+    height: 420px;
+    width: 20%;
+    
+    padding: 10px;
+    background-color: #fff;
+    color: black;
+    margin-bottom: 1rem;
+}
+.box h2{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+.box-image{
+    background-size: cover; 
+    height: 300px;
+    width: 100%;
+    margin: 1.5rem 0rem;
+}
+.box-more span{
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #007185;
+}
+.footer{
+    margin-top: 20px;
+}
+.footer-top{
+background-color:#485769;
+color: white;
+display: flex;
+justify-content: center;
+align-items:center;
+height: 60px;
+font-size: 0.9rem;
+font-weight: 500;
+}
+.footer-middle{
+    background-color: #232F3E;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 4rem;
+}
+ul a{
+    display: block;
+    margin-top: 0.85rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #DDDDDD;
+}
+ul p{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.footer-end{
+    height: 120px;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo{
+    height: 50px;
+    width: 170px;
+}
